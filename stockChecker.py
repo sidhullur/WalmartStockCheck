@@ -25,5 +25,5 @@ while True: # Looping the stock check procedure
 
         time.sleep(10) # runs procedure in 10 second intervals to prevent spamming
     except:
-        print("Skipped error")
+        time.sleep(10) # 10 second cooldown to prevent spam
         continue
